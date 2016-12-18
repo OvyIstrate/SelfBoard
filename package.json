@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/OvyIstrate/SelfBoard/issues"
   },
-  "homepage": "https://github.com/OvyIstrate/SelfBoard"
+  "homepage": "https://github.com/OvyIstrate/SelfBoard",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
 }
