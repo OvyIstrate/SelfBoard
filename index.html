@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
     <head>
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bower_components/bootstrap-side-navbar/source/assets/stylesheets/navbar-fixed-side.css" rel="stylesheet">
     </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                Self Dashboard Header
-            </div>
-            <div class="content">
-                Self Dashboard content
-                <section>
-                    Self Dashboard section
-                </section>
-            </div>
-            <div class="footer">
-                Self Dashboard Footer
-            </div>
+    <body ng-controller="mainCtrl">
+        <div ng-view>
+
         </div>
+
+        <!--framework scripts-->
+        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+
+
+        <!-- application scripts-->
+        <script type="text/javascript" src="main/config/app-config.js"></script>
+        <script type="text/javascript" src="main/controllers/main-controller.js"></script>
+        <script type="text/javascript" src="main/components/menu.js"></script>
     </body>
 </html>
