@@ -12,14 +12,14 @@
             templateUrl: 'views/components/menu.html',
             controller: menuCtrl,
             bindings: {
-                menuItems: '=',
+                items: '<',
             },
         });
 
     function menuCtrl() {
         var ctrl = this;
-        
-        ctrl.onInit = function() { };
+        ctrl.onInit = function() {
+         };
         ctrl.onChanges = function(changesObj) { };
         ctrl.onDestory = function() { };
     }

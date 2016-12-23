@@ -9,7 +9,7 @@
     function mainCtrl() {
         var vm = this;
         
-        vm.messageFromController = "HELLO THERE, YOU LOOK Nice!"
+        vm.layoutMessage = "Layout Message";
         vm.menuItems = ['About', 'Software', 'Gaming', 'Recomandations'];
         activate();
 
