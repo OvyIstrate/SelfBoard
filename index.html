@@ -9,8 +9,10 @@
         <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link href="styles/navbar.css" rel="stylesheet">
         <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/header.css" rel="stylesheet">
     </head>
     <body ng-controller="mainCtrl">
+        <header-background></header-background>
         <div ng-view>
 
         </div>
@@ -25,5 +27,6 @@
         <script type="text/javascript" src="main/config/app-config.js"></script>
         <script type="text/javascript" src="main/controllers/main-controller.js"></script>
         <script type="text/javascript" src="main/components/menu.js"></script>
+        <script type="text/javascript" src="main/components/header.js"></script>
     </body>
 </html>
