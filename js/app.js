@@ -70,9 +70,7 @@ $(function () {
     });
     $('.crimson').on("click", function () {
         $('#color').attr("href", "control/css/crimson.css");
-    });
-       
-     
+    });       
 });
 
 

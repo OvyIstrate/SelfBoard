@@ -32,7 +32,7 @@
     <link href="css/ie-workaround.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
-    <script src="control/js/ie-emulation-modes-warning.js"></script>
+    <!--<script src="js/ie-emulation-modes-warning.js"></script>-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="control/js/html5shiv.min.js"></script>
@@ -99,334 +99,41 @@
 <!-- ========== End Of Nav Bar ========== --> 
         
 <!-- ========== [2.3] Header ========== -->
-        <div id="home" class="demo-1">
-            <div id="large-header" class="large-header" style="background-image: url(&quot;img/back_wall.jpg&quot;); height: 511px; display: block;"> <!-- Edit Header Background Image ex url('control/img/image-name.jpg') -->
-                <canvas id="demo-canvas" width="1280" height="511"></canvas>
-                <div class="table">
-                    <div class="table-cell">
-                        <div class="container">
-                            <p class="wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                                Hello, I'm <span>Ovidiu Istrate</span> <!-- Edit -->
-                            </p>
-                            <h1 class="wow fadeIn" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeIn;"> <span>.NET</span> Web <span>Developer!</span></h1> <!-- Edit  -->
-                            <a href="#portfolio" class="smoothScroll wow fadeIn" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeIn;">See My Work</a> <!-- Edit -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- ========== End Header ========= -->
-        
+        <div w3-include-html="views/header.html"></div>
 <!-- ========== [2.4] About ========== -->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 wow fadeInLeft" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                        <img class="img-responsive" alt="profile picture" src="img/profile_default.jpg"> <!-- Profile Image -->
-                    </div>
-                    <div class="col-md-8 wow fadeInRight" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;">
-                        <h2>Ovidiu Istrate</h2>
-                        <h3>Web Developer </h3>
-                        <h3>.NET Software Engineer</h3>
-                        <p class="lead">
-                            <span>I'm A Professional Front End Developer. My Passion Is Designing Web Pages. I have More Than Five Years Working Experience In This field.</span>
-                            whereas multidisciplinary intellectual capital. Distinctively synergize market-driven master and prospective channels. Dramatically drive an expanded array of expertise with modern technology. Completely cultivate standardized manufactured.
-                            Continually transform process-centric systems rather than compelling growth strategies. Energistically streamline low-risk high-yield supply chains via scalable intellectual capital. <!-- some info about yourself -->
-                        </p>
-                        <a href="#" class="btn btn-about">Download CV</a> <!-- Download Cv button -->
-                        <a href="#contact" class="smoothScroll btn btn-about">Hire Me</a> <!-- Hire Me button -->
-                    </div>
-                </div>
-            </div>
-        </section>
-<!-- ========== End About ========== -->
+        <div w3-include-html="views/about.html"></div>
 
 <!-- ========== [2.5] Services ========== -->
-        <section id="services">
-                <div class="container text-center">
-                    <h2>My Services</h2> <!-- Edit Section Title -->
-                    <p class="sub-title">
-                        I am offering My Customers very Special Services and Solutions and Here are My main Services. <!-- Edit -->
-                    </p> 
-                    <div class="row wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
-                                <h3>Web Design</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-code fa-5x" aria-hidden="true"></i>
-                                <h3>Web Develop</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-pencil-square-o fa-5x" aria-hidden="true"></i>
-                                <h3>Well Documented</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
-                                <h3>Awesome Display</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-check-circle-o fa-5x" aria-hidden="true"></i>
-                                <h3>100% Responsive</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-thumbs-o-up fa-5x" aria-hidden="true"></i>
-                                <h3>Retina Ready</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
-                                <h3>Analytics</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                        <!-- Single Service -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature">
-                                <i class="fa fa-life-ring fa-5x"></i>
-                                <h3>Support</h3> <!-- Edit Title -->
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p> <!-- Edit description -->
-                            </div>
-                        </div>
-                    </div>
-                 </div>
-            </section>
-<!-- ========== End Services ========== -->
+        <div w3-include-html="views/services.html"></div>
 
 <!-- ========== [2.6] Portfolio ========== -->
-        <section id="portfolio">
-            <div class="container text-center">
-                <h2>Portfolio</h2>
-                <p class="sub-title">
-                    Some of My Awesome Previous Work in Web Designing , And front end development <!-- Edit -->
-                </p>
-                <div class="row wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                    <!-- Single Portfolio Item -->
-                    <div class="col-md-4 col-sm-6">
-                        <figure class="effect">
-                                <img class="img-responsive" src="img/work-1.jpg" alt="img18"> <!-- Edit Image -->
-                                <figcaption>
-                                    <h2>First <span>Work</span></h2> <!-- Edit -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of printing. <!-- Edit -->
-                                    </p> 
-                                    <a href="#">View more</a>
-                                </figcaption>			
-                        </figure>
-                    </div>
-                    <!-- Single Portfolio Item -->
-                    <div class="col-md-4 col-sm-6">
-                        <figure class="effect">
-                                <img class="img-responsive" src="img/work-2.jpg" alt="img18"> <!-- Edit Image -->
-                                <figcaption>
-                                    <h2>Second <span>Work</span></h2> <!-- Edit -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of printing. <!-- Edit -->
-                                    </p> 
-                                    <a href="#">View more</a>
-                                </figcaption>			
-                        </figure>
-                    </div>
-                    <!-- Single Portfolio Item -->
-                    <div class="col-md-4 col-sm-6">
-                        <figure class="effect">
-                                <img class="img-responsive" src="img/work-3.jpg" alt="img18"> <!-- Edit Image -->
-                                <figcaption>
-                                    <h2>Third <span>Work</span></h2> <!-- Edit -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of printing. <!-- Edit -->
-                                    </p> 
-                                    <a href="#">View more</a>
-                                </figcaption>			
-                        </figure>
-                    </div>
-                    <!-- Single Portfolio Item -->
-                    <div class="col-md-4 col-sm-6">
-                        <figure class="effect">
-                                <img class="img-responsive" src="img/work-4.jpg" alt="img18"> <!-- Edit Image -->
-                                <figcaption>
-                                    <h2>Fourth <span>Work</span></h2> <!-- Edit -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of printing. <!-- Edit -->
-                                    </p> 
-                                    <a href="#">View more</a>
-                                </figcaption>			
-                        </figure>
-                    </div>
-                    <!-- Single Portfolio Item -->
-                    <div class="col-md-4 col-sm-6">
-                        <figure class="effect">
-                                <img class="img-responsive" src="img/work-5.jpg" alt="img18"> <!-- Edit Image -->
-                                <figcaption>
-                                    <h2>Fifth <span>Work</span></h2> <!-- Edit -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of printing. <!-- Edit -->
-                                    </p> 
-                                    <a href="#">View more</a>
-                                </figcaption>			
-                        </figure>
-                    </div>
-                    <!-- Single Portfolio Item -->
-                    <div class="col-md-4 col-sm-6">
-                        <figure class="effect">
-                                <img class="img-responsive" src="img/work-6.jpg" alt="img18"> <!-- Edit Image -->
-                                <figcaption>
-                                    <h2>Sixth <span>Work</span></h2> <!-- Edit -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of printing. <!-- Edit -->
-                                    </p> 
-                                    <a href="#">View more</a>
-                                </figcaption>			
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </section>
-<!-- ========== End Portfolio ========== -->
-
-<!-- ========== [2.7] Hire Me Section =========== -->
-        <section id="hire-me">
-            <div class="container text-center">
-                <p>
-                    I am available for Freelance hire <!-- Edit -->
-                </p>
-                <h3>Let's <span>Work</span> Together Indeed!</h3> <!-- Edit -->
-                <a href="#contact" class="smoothScroll">Hire Me</a>
-            </div>
-        </section>
-<!-- =========== End Hire Me ============== -->
+        <div w3-include-html="views/portofolio.html"></div>
+        
+        <!--<div w3-include-html="views/hire.html"></div>-->
 <!-- =========== [2.8]  Contact ============ -->
-        <div id="contact" style="background:url('img/keyboard_contactus.jpg') no-repeat center center fixed; background-size:cover;"> <!-- Edit Background image ex: url('control/img/imagename.jpg') -->
-            <div class="overlay">
-                <div class="container text-center">
-                    <h2>Keep In Touch</h2> <!-- Edit -->
-                    <p class="sub-title">
-                        Here You can find me , Ask me about Anything . or Hire Me Just Feel free to Contact Me <!-- Edit -->
-                    </p>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <form method="post">
-                                <div class="col-md-6">
-                                    <input type="text" name="username" placeholder="Username" required="" data-alterego="b609d70e-a413-65a7-0dc7-0d2207d42800">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" name="email" placeholder="Email" required="" data-alterego="1b597502-4740-244a-84ba-3251390781c3">
-                                </div>
-                                <div class="col-md-12">
-                                    <textarea placeholder="Your Message"></textarea>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" value="Send" class="btn">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-3 tab">
-                            <div class="info col-md-12">
-                                <p class="phone">
-                                    <strong>Phone:</strong> +40 745665397 <!-- Edit -->
-                                </p>
-                            </div>
-                            <div class="info col-md-12">
-                                <p class="email">
-                                    <strong>Email:</strong> ovy.istrate@gmail.com <!-- Edit -->
-                                </p>
-                            </div>
-                            <div class="info col-md-12">
-                                <p class="address">
-                                    <span><strong>Address:</strong> 12345 Hollywood Bvld Street <!-- Edit -->
-                                Los Angeles, California</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- ========== End Contact ========== -->
+        <div w3-include-html="views/contact.html"></div>
 
 <!-- ========== [2.9] Footer ========== -->
-        <section id="footer">
-            <div class="container text-center">
-                <div class="social-media">
-                    <!-- Edit facebook Link Insteed of href="#" ex href="http://facebook.com/youraccount"-->
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <!-- Edit twitter Link Insteed of href="#" ex href="http://twitter.com/youraccount"-->
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <!-- Edit youtube Link Insteed of href="#" ex href="http://youtube.com/youraccount"-->
-                    <a href="#"><i class="fa fa-youtube" data-wow-delay="1.6s" aria-hidden="true"></i></a>
-                    <!-- Edit google-plus Link Insteed of href="#" ex href="http://google.com/youraccount"-->
-                    <a href="#"><i class="fa fa-google-plus" data-wow-delay="2.0s" aria-hidden="true"></i></a>
-                    <!-- Edit linkedIn Link Insteed of href="#" ex href="http://linkedin.com/youraccount"-->
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </section>
-<!-- ========== End Footer ========== -->
+        <div w3-include-html="views/footer.html"></div>
 <div style="visibility: hidden">
     <br>
     <script type="text/javascript" src="http://counter3.01counter.com/private/counter.js?c=23b133349134ec98d87c6f7635c230ce"></script><a href="http://www.freecounterstat.com/geozoom.php?c=23b133349134ec98d87c6f7635c230ce&amp;base=counter3&amp;type_clic=0" target="_blank"><img border="0" src="http://counter3.freecounterstat.com/private/counter.php?c=23b133349134ec98d87c6f7635c230ce&amp;init=1483439937900&amp;init_freecounterstat=1&amp;library=library_counters&amp;coef=0.5&amp;type=002&amp;lenght=4&amp;pv=0" alt="Click to see detail of visits and stats for this site" title="Click to see detail of visits and stats for this site"></a><img style="border:none" src="http://counter3.01counter.com:8080/private/pointeur/pointeur.gif?|23b133349134ec98d87c6f7635c230ce|1024*1280|en|24|1483439938|4208490de089a79c56e15a6e8c3ee5bf|computer|windows|10|chrome|55|Romania|RO|46.766701|23.600000|Cluj-napoca|RCS+%26+RDS|7200|1|1483439935|ok|http%3A//persone.eb2a.com/en/index.html||js|79.116.61.129|||&amp;init=1483439937900" border="0" width="1" height="1">
     <noscript>&lt;a href="http://www.freecounterstat.com" title="free website counter code"&gt;&lt;img src="http://counter3.01counter.com/private/freecounterstat.php?c=23b133349134ec98d87c6f7635c230ce" border="0" title="free website counter code" alt="free website counter code"&gt;&lt;/a&gt;
     </noscript>
 </div>
-<!-- ========== Java Script ========== -->
-    <!-- JQuery -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- BootStrap -->
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-     <!-- wow -->
+<script src="js/w3data.js"></script>
 <script src="js/wow.min.js"></script>
-    <!-- Particles -->
 <script src="js/TweenLite.min.js"></script>
 <script src="js/EasePack.min.js"></script>
-<script src="js/rAF.js"></script>
-<script src="js/header.js"></script>
-        <!-- main JS -->
+<!--<script src="js/rAF.js"></script>-->
+<!--<script src="js/header.js"></script>-->
 <script src="js/app.js"></script>
-        <!-- SmoothScrol -->
 <script src="js/smoothscroll.js"></script>
-<!-- ========== End Java Script ========== -->
+<script>
+    w3IncludeHTML();
+</script>
 <div style="text-align: center;"><div style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999">
-
 </div></div>
 <iframe src="http://counter3.01counter.com:8080/private/chrome_false.gif?u=1483439935" style="display: none;"></iframe></body></html>
