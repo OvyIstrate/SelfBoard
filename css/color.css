@@ -9,43 +9,43 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-  color:crimson;
+  color:#778899;
 }
 #home a,
 .btn-about {
-    background-color:crimson;
-    border:1px solid crimson;
+    background-color:#778899;
+    border:1px solid #778899;
 }
 #home a:hover,
 #home a:focus {
-    color:crimson;
-    border:1px solid crimson;
+    color:#778899;
+    border:1px solid #778899;
 }
 .feature:hover,
 #hire-me a,
 #contact input[type=submit],
 #contact .info:hover {
-    background-color:crimson;
+    background-color:#778899;
 }
 figure.effect {
-	background: crimson;
+	background: #778899;
 }
 
 #contact input:focus,
 #contact textarea:focus {
-    -webkit-box-shadow:0 0 7px crimson;
-    box-shadow:0 0 7px crimson;
+    -webkit-box-shadow:0 0 7px #778899;
+    box-shadow:0 0 7px #778899;
 }
 
 #footer .social-media a:hover {
-    color:crimson;
-    background-color:crimson;
+    color:#778899;
+    background-color:#778899;
 }
 @media only screen and (max-width: 768px) { 
     /* Nav */
     .custom-navbar .navbar-toggle .icon-bar {
-        color:crimson;
-        background-color:crimson;
+        color:#778899;
+        background-color:#778899;
     }
 
 }
