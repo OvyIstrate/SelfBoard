@@ -66,19 +66,16 @@ $(function() {
             $('.box').removeClass('open');
         }
     });
-    $('.green').on("click", function() {
-        $('#color').attr("href", "control/css/green.css");
+    $('.gray').on("click", function() {
+        $('#color').attr("href", "../css/gray.css");
     });
     $('.blue').on("click", function() {
-        $('#color').attr("href", "control/css/blue.css");
+        $('#color').attr("href", "../css/blue.css");
     });
-    $('.orange').on("click", function() {
-        $('#color').attr("href", "control/css/orange.css");
+    $('.green').on("click", function() {
+        $('#color').attr("href", "../css/green.css");
     });
-    $('.purple').on("click", function() {
-        $('#color').attr("href", "control/css/purple.css");
-    });
-    $('.crimson').on("click", function() {
-        $('#color').attr("href", "control/css/crimson.css");
+    $('.black').on("click", function() {
+        $('#color').attr("href", "../css/black.css");
     });
 });

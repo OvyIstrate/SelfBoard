@@ -1059,26 +1059,24 @@ p.address:before {
     z-index: 1001;
 }
 
-.green {
-    left: 60px;
-    background-color: #2ecc71;
+.gray {
+    background-color: silver;
 }
 
 .blue {
     left: 110px;
-    background-color: #3498db;
+    background-color: #001f3f;
 }
 
-.orange {
+.green {
+    left: 60px;
+    background-color: #228b22;
+}
+
+.black {
     top: 60px;
     left: 10px;
-    background-color: #f39c12;
-}
-
-.purple {
-    top: 60px;
-    left: 60px;
-    background-color: #9b59b6;
+    background-color: #000;
 }
 
 .color:hover {
