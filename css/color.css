@@ -1,7 +1,7 @@
-.custom-navbar .navbar-nav > li > a:hover,
-.custom-navbar .navbar-nav > li > a:focus,
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus,
 .nav li a.active,
-.custom-navbar .nav li.active > a,
+.custom-navbar .nav li.active>a,
 .special,
 #home h1 span,
 #about h2,
@@ -9,43 +9,57 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-  color:#E5E4E2;
+    color: #E5E4E2;
 }
+
+#home p span {
+    color: azure;
+    font-weight: bold;
+}
+
+#home h1 span {
+    color: #001f3f;
+    font-weight: bold;
+}
+
 #home a,
 .btn-about {
-    background-color:#778899;
-    border:1px solid #778899;
+    background-color: #001f3f;
+    border: 1px solid #001f3f;
 }
+
 #home a:hover,
 #home a:focus {
-    color:#778899;
-    border:1px solid #778899;
+    color: #778899;
+    border: 1px solid #778899;
 }
+
 .feature:hover,
 #hire-me a,
 #contact input[type=submit],
 #contact .info:hover {
-    background-color:#778899;
+    background-color: #778899;
 }
+
 figure.effect {
-	background: #778899;
+    background: #778899;
 }
 
 #contact input:focus,
 #contact textarea:focus {
-    -webkit-box-shadow:0 0 7px #778899;
-    box-shadow:0 0 7px #778899;
+    -webkit-box-shadow: 0 0 7px #778899;
+    box-shadow: 0 0 7px #778899;
 }
 
 #footer .social-media a:hover {
-    color:#778899;
-    background-color:#778899;
+    color: #778899;
+    background-color: #778899;
 }
-@media only screen and (max-width: 768px) { 
+
+@media only screen and (max-width: 768px) {
     /* Nav */
     .custom-navbar .navbar-toggle .icon-bar {
-        color:#778899;
-        background-color:#778899;
+        color: #778899;
+        background-color: #778899;
     }
-
 }

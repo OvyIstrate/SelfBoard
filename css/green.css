@@ -9,13 +9,37 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-    color: #E5E4E2;
+    color: silver;
 }
 
 #home a,
 .btn-about {
-    background-color: #228b22;
-    border: 1px solid #228b22;
+    background-color: #006400;
+    border: 1px solid #006400;
+}
+
+#home p {
+    float: right;
+}
+
+#home h1 {
+    float: right;
+}
+
+#home p span {
+    color: #006400;
+    font-weight: bold;
+}
+
+#home h1 span {
+    color: #006400;
+    font-weight: bold;
+}
+
+#home .container a {
+    position: absolute;
+    right: 8%;
+    bottom: 25%;
 }
 
 #home a:hover,
@@ -46,15 +70,16 @@ figure.effect {
     background-color: #228b22;
 }
 
-#large-header{
+#large-header {
     background-image: url("../img/green_universe.jpg");
 }
 
-.scroll{
-    background-color:#228b22;
+.scroll {
+    background-color: #228b22;
 }
+
 .option:hover {
-    background-color:#228b22;
+    background-color: #228b22;
 }
 
 @media only screen and (max-width: 768px) {

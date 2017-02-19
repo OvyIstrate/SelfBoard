@@ -12,6 +12,16 @@
     color: #E5E4E2;
 }
 
+#home p span {
+    color: #000000;
+    font-weight: bold;
+}
+
+#home h1 span {
+    color: #000000;
+    font-weight: bold;
+}
+
 #home a,
 .btn-about {
     background-color: #111111;
@@ -20,8 +30,8 @@
 
 #home a:hover,
 #home a:focus {
-    color: :#778899;
-    border: 1px solid :#778899;
+    color: #778899;
+    border: 1px solid #778899;
 }
 
 .feature:hover,
@@ -53,12 +63,15 @@ figure.effect {
         background-color: #111111;
     }
 }
-#large-header{
+
+#large-header {
     background-image: url("../img/black_universe.jpg");
 }
-.scroll{
-    background-color:#111111;
+
+.scroll {
+    background-color: #111111;
 }
+
 .option:hover {
-    background-color:#111111;
+    background-color: #111111;
 }
