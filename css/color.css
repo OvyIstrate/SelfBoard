@@ -4,12 +4,16 @@
 .custom-navbar .nav li.active>a,
 .special,
 #home h1 span,
-#about h2,
 .btn-about:hover,
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
     color: #E5E4E2;
+}
+
+#about h2 {
+    color: #001f3f;
+    font-weight: bold;
 }
 
 #home p span {
