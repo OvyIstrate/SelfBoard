@@ -75,7 +75,7 @@
         <span class="color black"></span>
     </div>
     <!-- ================================== NAV BAR ======================================= -->
-    <nav id="nav" class="navbar custom-navbar navbar-fixed-top scroll">
+    <nav id="nav" class="navbar custom-navbar navbar-fixed-top">
         <div class="container">
             <!-- NAVBAR HEADER -->
             <div class="navbar-header">
@@ -85,13 +85,14 @@
                             <span class="icon icon-bar"></span>
                        </button>
                 <!-- lOGO TEXT HERE -->
-                <a href="index.html" class="navbar-brand"><span class="special">O</span>I.</a>
+                <a href="index.html" class="navbar-brand"><span class="special fa fa-black-tie"></span></a>
             </div>
             <!-- NAVIGATION LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home" class="smoothScroll">Home</a></li>
                     <li><a href="#about" class="smoothScroll active">About</a></li>
+                    <li><a href="#clients" class="smoothScroll">Clients</a></li>
                     <li><a href="#services" class="smoothScroll">Services</a></li>
                     <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
                     <li><a href="#contact" class="smoothScroll">Contact</a></li>
@@ -101,7 +102,7 @@
     </nav>
     <!--====================================== HEADER ============================ -->
     <div id="home" class="demo-1">
-        <div id="large-header" class="large-header" style="background-image: url(&quot;img/back_wall.jpg&quot;); height: 511px; display: block;">
+        <div id="large-header" class="large-header" style="height: 511px; display: block;">
             <!-- Edit Header Background Image ex url('control/img/image-name.jpg') -->
             <canvas id="demo-canvas" width="1280" height="511"></canvas>
             <div class="table">
@@ -120,17 +121,19 @@
             </div>
         </div>
     </div>
-    <!-- ========== [2.4] About ========== -->
+    <!-- ========== About ========== -->
     <div w3-include-html="views/about.html"></div>
 
-    <!-- ========== [2.5] Services ========== -->
+    <!-- ========== Services ========== -->
     <div w3-include-html="views/services.html"></div>
 
-    <!-- ========== [2.6] Portfolio ========== -->
+    <!-- ========== Portfolio ========== -->
     <div w3-include-html="views/portofolio.html"></div>
 
-    <!--<div w3-include-html="views/hire.html"></div>-->
-    <!-- =========== [2.8]  Contact ============ -->
+    <!-- ========== Clients =============-->
+    <div w3-include-html="views/clients.html"></div>
+
+    <!-- ===========  Contact ============ -->
     <div w3-include-html="views/contact.html"></div>
 
     <!-- ========== [2.9] Footer ========== -->

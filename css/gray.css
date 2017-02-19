@@ -9,7 +9,7 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-    color: #AAAAAA;
+    color: #111111;
 }
 
 #home a,
@@ -46,10 +46,21 @@ figure.effect {
     background-color: #AAAAAA;
 }
 
+
 @media only screen and (max-width: 768px) {
     /* Nav */
     .custom-navbar .navbar-toggle .icon-bar {
         color: #AAAAAA;
         background-color: #AAAAAA;
     }
+}
+#large-header{
+    background-image: url("../img/gray_universe.jpg");
+}
+
+.scroll{
+    background-color:#AAAAAA;
+}
+.option:hover {
+    background-color:#AAAAAA;
 }

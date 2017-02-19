@@ -9,7 +9,7 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-    color: #228b22;
+    color: #E5E4E2;
 }
 
 #home a,
@@ -44,6 +44,17 @@ figure.effect {
 #footer .social-media a:hover {
     color: #228b22;
     background-color: #228b22;
+}
+
+#large-header{
+    background-image: url("../img/green_universe.jpg");
+}
+
+.scroll{
+    background-color:#228b22;
+}
+.option:hover {
+    background-color:#228b22;
 }
 
 @media only screen and (max-width: 768px) {

@@ -10,18 +10,18 @@
             </p>
             <div class="row">
                 <div class="col-md-9">
-                    <form method="post">
+                    <form method="POST" action="http://www.selfboardapi.com/mail">
                         <div class="col-md-6">
-                            <input type="text" name="username" placeholder="Username" required="" data-alterego="b609d70e-a413-65a7-0dc7-0d2207d42800">
+                            <input type="text" name="name" placeholder="Name" required="" data-alterego="b609d70e-a413-65a7-0dc7-0d2207d42800">
                         </div>
                         <div class="col-md-6">
                             <input type="email" name="email" placeholder="Email" required="" data-alterego="1b597502-4740-244a-84ba-3251390781c3">
                         </div>
                         <div class="col-md-12">
-                            <textarea placeholder="Your Message"></textarea>
+                            <textarea id="message" name="message" placeholder="Your Message"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <input type="submit" value="Send" class="btn">
+                            <input type="submit" value="Send" class="btn" id="submitBtn">
                         </div>
                     </form>
                 </div>
@@ -40,8 +40,7 @@
                     </div>
                     <div class="info col-md-12">
                         <p class="address">
-                            <span><strong>Address:</strong> 12345 Hollywood Bvld Street <!-- Edit -->
-                                Los Angeles, California</span>
+                            <span><strong>Address:</strong> Cluj, Cluj-Napoca, Corneliu-Coposu No: 1-3-5</span>
                         </p>
                     </div>
                 </div>

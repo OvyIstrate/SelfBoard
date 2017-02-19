@@ -4,7 +4,7 @@
 
 body {
     overflow: hidden;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Courier New";
 }
 
 h1,
@@ -240,7 +240,7 @@ End Of Loading Animation
 }
 
 .scroll {
-    background-color: #001f3f !important;
+    background-color: #001f3f;
 }
 
 .custom-navbar .navbar-brand {
@@ -312,16 +312,6 @@ End Of Loading Animation
     }
 }
 
-
-/* ======================
-   End NavBar
-====================== */
-
-
-/* =======================
-[4] Header
-======================= */
-
 @font-face {
     font-weight: normal;
     font-style: normal;
@@ -339,6 +329,7 @@ End Of Loading Animation
     background-size: cover;
     background-position: center center;
     z-index: 1;
+    background-image: url("../img/back_wall.jpg");
 }
 
 .table {

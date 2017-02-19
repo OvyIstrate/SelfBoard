@@ -9,7 +9,7 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-    color: #111111;
+    color: #E5E4E2;
 }
 
 #home a,
@@ -20,8 +20,8 @@
 
 #home a:hover,
 #home a:focus {
-    color: #111111;
-    border: 1px solid #111111;
+    color: :#778899;
+    border: 1px solid :#778899;
 }
 
 .feature:hover,
@@ -52,4 +52,13 @@ figure.effect {
         color: #111111;
         background-color: #111111;
     }
+}
+#large-header{
+    background-image: url("../img/black_universe.jpg");
+}
+.scroll{
+    background-color:#111111;
+}
+.option:hover {
+    background-color:#111111;
 }
