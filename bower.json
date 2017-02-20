@@ -1,28 +1,25 @@
 {
-  "name": "SelfBoard",
-  "description": "My Personal Presentation Web Site",
-  "main": "app.js",
-  "authors": [
-    "Ovidiu Istrate"
-  ],
-  "license": "ISC",
-  "keywords": [
-    "personal",
-    "dashboard"
-  ],
-  "homepage": "https://github.com/OvyIstrate/SelfBoard",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "angular-ui": "^0.4.0",
-    "angular": "^1.6.1",
-    "angular-route": "^1.6.1",
-    "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0"
-  }
+    "name": "SelfBoard",
+    "description": "My Personal Presentation Web Site",
+    "main": "app.js",
+    "authors": [
+        "Ovidiu Istrate"
+    ],
+    "license": "ISC",
+    "keywords": [
+        "personal",
+        "dashboard"
+    ],
+    "homepage": "https://github.com/OvyIstrate/SelfBoard",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "^4.7.0"
+    }
 }
