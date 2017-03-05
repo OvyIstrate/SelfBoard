@@ -29,11 +29,6 @@ section {
     padding: 100px 0;
 }
 
-
-/* =====================
-[2] Loading Animation
-===================== */
-
 .loading {
     display: table;
     position: fixed;
@@ -234,16 +229,6 @@ section {
     }
 }
 
-
-/* ======================
-End Of Loading Animation
-====================== */
-
-
-/* =====================
-[3] Nav Bar
-===================== */
-
 .custom-navbar {
     border: none;
     margin-bottom: 0;
@@ -402,16 +387,6 @@ End Of Loading Animation
     border: 1px solid crimson;
 }
 
-
-/* ====================
-   End Header
-==================== */
-
-
-/* ====================
-[5] about
-==================== */
-
 #about h2 {
     font-weight: 500;
     letter-spacing: 1px;
@@ -464,16 +439,6 @@ End Of Loading Animation
     -webkit-box-shadow: 0 0 20px #DDD;
     box-shadow: 0 0 20px #DDD;
 }
-
-
-/* ====================
-   End about
-==================== */
-
-
-/* ====================
-[6] Services
-==================== */
 
 #services {
     background-color: rgba(221, 221, 221, 0.4);
@@ -539,16 +504,6 @@ End Of Loading Animation
     color: #FFF;
 }
 
-
-/* ====================
-   End Services 
-==================== */
-
-
-/* ====================
-[7] Portfolio 
-==================== */
-
 #portfolio .sub-title {
     font-size: 14px;
     letter-spacing: 1px;
@@ -559,14 +514,6 @@ End Of Loading Animation
     line-height: 25px;
 }
 
-.carousel-inner>.item>a>img,
-.carousel-inner>.item>img,
-.img-responsive,
-.thumbnail a>img,
-.thumbnail>img {
-    height: 500px !important;
-}
-
 figure {
     position: relative;
     overflow: hidden;
@@ -574,6 +521,7 @@ figure {
     text-align: center;
     cursor: pointer;
     margin: 15px auto;
+    height: 600px;
 }
 
 figure img {
@@ -866,23 +814,7 @@ p.address:before {
     color: #FFF;
 }
 
-
-/* =====================
-   End Footer 
-==================== */
-
-
-/* ====================
-   Responsive 
-==================== */
-
-
-/* Medium Layout: 1280px. */
-
 @media only screen and (min-width: 992px) and (max-width: 1200px) {}
-
-
-/* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /*about*/
@@ -894,9 +826,6 @@ p.address:before {
         margin-left: 15px;
     }
 }
-
-
-/* Mobile Layout lower than: 320px. */
 
 @media only screen and (max-width: 768px) {
     /* Nav */
@@ -916,9 +845,6 @@ p.address:before {
         margin-left: 15px;
     }
 }
-
-
-/* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
@@ -953,15 +879,9 @@ p.address:before {
     #about h3 {
         line-height: 25px;
     }
-    /* portfolio */
     figure h2 {
         font-size: 24px;
     }
-    /* Hire Me */
-    #hire-me h3 {
-        font-size: 30px;
-    }
-    /* footer */
     #footer .social-media a {
         padding: 10px 10px;
         line-height: 50px;
@@ -972,9 +892,6 @@ p.address:before {
 }
 
 @media only screen and (max-width: 321px) {}
-
-
-/* color box */
 
 .box {
     position: fixed;

@@ -5,7 +5,6 @@
 .special,
 #home h1 span,
 .btn-about:hover,
-#hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
     color: #E5E4E2;
@@ -39,10 +38,9 @@
 }
 
 .feature:hover,
-#hire-me a,
 #contact input[type=submit],
 #contact .info:hover {
-    background-color: #778899;
+    background-color: #001f3f;
 }
 
 #contact input:focus,
@@ -53,7 +51,7 @@
 
 #footer .social-media a:hover {
     color: #778899;
-    background-color: #778899;
+    background-color: #001f3f;
 }
 
 @media only screen and (max-width: 768px) {

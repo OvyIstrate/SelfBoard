@@ -6,7 +6,6 @@
 #home h1 span,
 #about h2,
 .btn-about:hover,
-#hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
     color: silver;
@@ -19,6 +18,21 @@
 }
 
 #about h2 {
+    color: #006400;
+    font-weight: bold;
+}
+
+#services h2 {
+    color: #006400;
+    font-weight: bold;
+}
+
+#portfolio h2 {
+    color: #006400;
+    font-weight: bold;
+}
+
+#clients h2 {
     color: #006400;
     font-weight: bold;
 }
@@ -54,7 +68,6 @@
 }
 
 .feature:hover,
-#hire-me a,
 #contact input[type=submit],
 #contact .info:hover {
     background-color: #228b22;

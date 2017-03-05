@@ -6,14 +6,13 @@
 #home h1 span,
 #about h2,
 .btn-about:hover,
-#hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
     color: #E5E4E2;
 }
 
 #home p span {
-    color: #000000;
+    color: #AAAAAA;
     font-weight: bold;
 }
 
@@ -22,8 +21,23 @@
     font-weight: bold;
 }
 
-#home h1 span {
+#services h2 {
     color: #000000;
+    font-weight: bold;
+}
+
+#portfolio h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+#clients h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+#home h1 span {
+    color: #AAAAAA;
     font-weight: bold;
 }
 
@@ -40,7 +54,6 @@
 }
 
 .feature:hover,
-#hire-me a,
 #contact input[type=submit],
 #contact .info:hover {
     background-color: #111111;
