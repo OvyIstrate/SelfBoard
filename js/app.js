@@ -1,46 +1,35 @@
 $(function() {
     "use strict";
     var $window = $(window),
-        /* window cash */
         $loading = $('.loading'),
-        /* loading cash */
         $body = $("body"),
-        /* body cash */
         $header = $('.large-header'),
-        /* header cash */
         $nav = $('#nav'),
-        /* nav cash */
         $link = $("#nav a"),
-        /* nav a cash */
         $brush = $(".option");
 
-    /* Loading Animations */
     $window.on("load", function() {
         $loading.fadeOut();
         $body.css({ overflow: "visible" });
         $header.css({ display: "block" });
     });
 
-    /* Nav scroll */
     $window.on("scroll", function() {
         if ($window.scrollTop() > 280) {
             $nav.addClass("scroll");
             $brush.addClass("scroll");
 
         } else {
-            //remove the background property
             $nav.removeClass("scroll");
             $brush.removeClass("scroll");
         }
     });
-    /* Nav Toggle */
     $link.on("click", function() {
         if ($(".navbar-toggle").css("display") !== "none") {
             $(".navbar-toggle").trigger("click");
         }
     });
 
-    /* Active Toggle */
     $window.on("scroll", function(event) {
         var $scrollPos = $(document).scrollTop(),
             $links = $('.nav li a');
@@ -55,7 +44,6 @@ $(function() {
             }
         });
     });
-    /* Wow */
     new WOW().init();
 
     $('.option').on("click", function() {

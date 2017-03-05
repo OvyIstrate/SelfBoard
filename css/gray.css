@@ -9,7 +9,7 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-    color: #111111;
+    color: silver;
 }
 
 #home a,
@@ -44,10 +44,6 @@
 #contact input[type=submit],
 #contact .info:hover {
     background-color: #AAAAAA;
-}
-
-figure.effect {
-    background: #AAAAAA;
 }
 
 #contact input:focus,

@@ -7,18 +7,18 @@
             </p>
             <div class="row">
                 <div class="col-md-9">
-                    <form method="POST" action="http://www.selfboardapi.com/mail">
+                    <form method="post">
                         <div class="col-md-6">
-                            <input type="text" name="name" placeholder="Name" required="" data-alterego="b609d70e-a413-65a7-0dc7-0d2207d42800">
+                            <input id="input-name" type="text" name="name" placeholder="Name" required>
                         </div>
-                        <div class="col-md-6">
-                            <input type="email" name="email" placeholder="Email" required="" data-alterego="1b597502-4740-244a-84ba-3251390781c3">
+                    <div class="col-md-6">
+                            <input id="input-mail" type="email" name="email" placeholder="Email" required>
                         </div>
                         <div class="col-md-12">
-                            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                            <textarea id="input-message" name="message" placeholder="Your Message"></textarea>
                         </div>
                         <div class="col-md-12">
-                            <input type="submit" value="Send" class="btn" id="submitBtn">
+                            <input type="submit" class="btn" id="submitBtn" value="Send" onClick="sendEmail()">
                         </div>
                     </form>
                 </div>
@@ -33,13 +33,10 @@
                             <strong>Email:</strong> ovy.istrate@gmail.com
                         </p>
                     </div>
-                    <div class="info col-md-12">
-                        <p class="address">
-                            <span><strong>Address:</strong> Cluj, Cluj-Napoca, Corneliu-Coposu No: 1-3-5</span>
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script src ="../js/mail.js"></script>

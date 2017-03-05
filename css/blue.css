@@ -9,7 +9,7 @@
 #hire-me a:hover,
 #contact input[type=submit]:hover,
 .name {
-    color: #001f3f;
+    color: #E5E4E2;
 }
 
 #home a,
@@ -34,10 +34,6 @@
 #contact input[type=submit],
 #contact .info:hover {
     background-color: #001f3f;
-}
-
-figure.effect {
-    background: #001f3f;
 }
 
 #contact input:focus,

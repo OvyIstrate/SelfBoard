@@ -60,10 +60,6 @@
     background-color: #228b22;
 }
 
-figure.effect {
-    background: #228b22;
-}
-
 #contact input:focus,
 #contact textarea:focus {
     -webkit-box-shadow: 0 0 7px #228b22;

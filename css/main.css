@@ -399,7 +399,6 @@ End Of Loading Animation
 #home a:focus {
     text-decoration: none;
     background-color: transparent;
-    color: crimson;
     border: 1px solid crimson;
 }
 
@@ -414,7 +413,6 @@ End Of Loading Animation
 ==================== */
 
 #about h2 {
-    color: crimson;
     font-weight: 500;
     letter-spacing: 1px;
     margin: 10px 10px 5px 10px;
@@ -445,10 +443,8 @@ End Of Loading Animation
 
 .btn-about {
     margin: 10px;
-    border: 1px solid crimson;
     outline: none;
     color: #FFF;
-    background-color: crimson;
     padding: 15px;
     font-weight: bold;
     font-size: 16px;
@@ -563,10 +559,18 @@ End Of Loading Animation
     line-height: 25px;
 }
 
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    height: 500px !important;
+}
+
 figure {
     position: relative;
     overflow: hidden;
-    background: #3085a3;
+    background: #FFF;
     text-align: center;
     cursor: pointer;
     margin: 15px auto;
@@ -581,7 +585,7 @@ figure img {
 
 figure figcaption {
     padding: 2em;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
@@ -629,10 +633,6 @@ figure p {
     font-size: 14px;
 }
 
-figure.effect {
-    background: crimson;
-}
-
 figure.effect img {
     opacity: 0.95;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -662,7 +662,7 @@ figure.effect p {
     margin: 3em;
     padding: 0 1em;
     max-width: 150px;
-    border-right: 4px solid #fff;
+    border-right: 4px solid #000;
     text-align: right;
     opacity: 0;
     -webkit-transition: opacity 0.35s;
@@ -697,59 +697,6 @@ figure.effect:hover p {
 
 
 /* ====================
-Hire Me
-==================== */
-
-#hire-me {
-    background-color: #222;
-}
-
-#hire-me p {
-    font-size: 15px;
-    color: #DDD;
-    letter-spacing: 1px;
-    font-weight: 300;
-}
-
-#hire-me h3 {
-    letter-spacing: 1px;
-    color: #f5f5f5;
-    padding: 0;
-    margin: 20px auto 50px;
-    font-size: 42px;
-    line-height: 55px;
-}
-
-#hire-me h3 span {
-    font-weight: 300;
-}
-
-#hire-me a {
-    text-decoration: none;
-    color: currentColor;
-    padding: 14px 20px;
-    background-color: crimson;
-    color: #FFF;
-    border-radius: 5px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 16px;
-    -webkit-transition: all .27s ease-in-out;
-    transition: all .27s ease-in-out;
-}
-
-#hire-me a:hover {
-    background-color: #FFF;
-    color: crimson;
-    -webkit-transition: all .27s ease-in-out;
-    transition: all .27s ease-in-out;
-}
-
-
-/* ====================
-   End Hire Me 
-==================== */
-
 
 /* ====================
 [8] Contact
