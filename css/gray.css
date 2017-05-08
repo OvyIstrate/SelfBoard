@@ -27,6 +27,10 @@
     font-weight: bold;
 }
 
+#profile_pic {
+    content: url("../img/gray_profile.jpg");
+}
+
 #services h2 {
     color: #AAAAAA;
     font-weight: bold;

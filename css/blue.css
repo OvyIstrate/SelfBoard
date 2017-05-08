@@ -22,6 +22,15 @@
     font-weight: bold;
 }
 
+#profile_pic {
+    content: url("../img/blue_profile.png");
+}
+
+#home h1 span {
+    color: #E5E4E2;
+    font-weight: bold;
+}
+
 #services h2 {
     color: #001f3f;
     font-weight: bold;

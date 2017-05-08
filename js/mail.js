@@ -1,36 +1,27 @@
-var emailCount = 0;
+(function() {
+    var successSentMessage = getQueryParameter('message');
+    var errorSentMessage = getQueryParameter('error');
 
-function emailCallBack(message) {
-    alert(message);
-    emailCount += 1;
-}
-
-$("#mailForm").submit(function() {
-    alert("Your message has been sent");
-});
-
-function sendEmail() {
-    var name = $("#input-name").val();
-    var email = $("#input-mail").val();
-    var message = $('#input-message').val();
-
-    if (emailCount < 10) {
-        var requestModel = {
-            name: name,
-            email: email,
-            message: message
-        };
-
-        var requestUrl = "http://www.selfboardapi.com/api/mail";
-        // $.post(requestUrl, requestModel, emailCallBack);
-        var options = {
-            method: "OPTIONS",
-            url: requestUrl,
-            data: requestModel,
-            contentType: "json"
-        };
-        $.ajax(options).success(function(response) {
-            alert(response);
+    if (successSentMessage !== null) {
+        $.alert({
+            title: 'Success!',
+            content: successSentMessage,
         });
     }
-}
+    if (errorSentMessage !== null) {
+        $.alert({
+            title: 'Error!',
+            content: errorSentMessage,
+        });
+    }
+
+    function getQueryParameter(name) {
+        var url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+})();

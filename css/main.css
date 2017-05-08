@@ -440,6 +440,10 @@ section {
     box-shadow: 0 0 20px #DDD;
 }
 
+#profile_pic {
+    content: url("../img/blue_profile.png");
+}
+
 #services {
     background-color: rgba(221, 221, 221, 0.4);
     box-sizing: border-box;

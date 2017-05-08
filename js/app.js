@@ -36,9 +36,11 @@ $(function() {
         $links.each(function() {
             var $currLink = $(this),
                 $refElement = $($currLink.attr("href"));
-            if ($refElement.position().top <= $scrollPos + 100 && $refElement.position().top + $refElement.height() > $scrollPos) {
-                $links.removeClass("active").blur();
-                $currLink.addClass("active");
+            if ($refElement.position()) {
+                if ($refElement.position().top <= $scrollPos + 100 && $refElement.position().top + $refElement.height() > $scrollPos) {
+                    $links.removeClass("active").blur();
+                    $currLink.addClass("active");
+                }
             } else {
                 $currLink.removeClass("active");
             }

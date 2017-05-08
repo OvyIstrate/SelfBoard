@@ -21,6 +21,10 @@
     font-weight: bold;
 }
 
+#profile_pic {
+    content: url("../img/black_profile.jpg");
+}
+
 #services h2 {
     color: #000000;
     font-weight: bold;
